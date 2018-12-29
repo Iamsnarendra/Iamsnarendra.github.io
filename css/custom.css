@@ -1,0 +1,355 @@
+/* Your custom css code goes here */
+/*====================================================
+                      AWARD
+======================================================*/
+ 
+#timeline {
+  /*   background: #f0f0f0;*/
+}
+
+#timeline-box {
+    overflow: hidden;
+    position: relative;
+    padding: 60px 0;
+}
+
+#timeline-box:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #cfcdcd;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+#timeline1-box:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #cfcdcd;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+#timeline-box .timeline {
+    width: 50%;
+    clear: both;
+    position: relative;
+}
+#timeline1-box .timeline {
+    width: 50%;
+    clear: both;
+    position: relative;
+}
+#timeline-box .timeline:before,
+#timeline-box .timeline:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#timeline1-box .timeline:before,
+#timeline1-box .timeline:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#timeline-box .timeline:first-child:before,
+#timeline-box .timeline:last-child:before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    background: #cfcdcd;
+    box-sizing: content-box;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 2px #cfcdcd;
+    position: absolute;
+    top: -54px;
+    right: -11px;
+    transform: rotate(45deg);
+}
+
+#timeline-box .timeline:last-child:before {
+    top: auto;
+    bottom: -54px;
+}
+#timeline1-box .timeline1:last-child:before {
+    top: auto;
+    bottom: -54px;
+}
+#timeline-box .timeline:last-child:nth-child(even):before {
+    right: auto;
+    left: -11px;
+}
+#timeline1-box .timeline1:last-child:nth-child(even):before {
+    right: auto;
+    left: -11px;
+}
+#timeline-box .timeline-icon {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border: 1px solid #cfcdcd;
+    position: absolute;
+    top: 17px;
+    right: -13px;
+    z-index: 1;
+    transform: rotate(45deg);
+}
+#timeline1-box .timeline1-icon {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border: 1px solid #cfcdcd;
+    position: absolute;
+    top: 17px;
+    right: -13px;
+    z-index: 1;
+    transform: rotate(45deg);
+}
+#timeline-box .timeline-icon:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.2s ease 0s;
+}
+#timeline1-box .timeline1-icon:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.2s ease 0s;
+}
+#timeline-box .timeline:hover .timeline-icon:before {
+    background: #5068A9;
+}
+#timeline1-box .timeline1:hover .timeline1-icon:before {
+    background: #5068A9;
+}
+#timeline-box .timeline-content {
+    width: 85%;
+    padding: 18px 30px;
+    background: #fff;
+    text-align: right;
+    float: left;
+    border: 2px solid #C0C5CD;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#timeline1-box .timeline1-content {
+    width: 85%;
+    padding: 10px 10px;
+    background: #fff;
+   
+    float: left;
+    border: 2px solid #C0C5CD;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#timeline-box .timeline:hover .timeline-content {
+    border: 2px solid #5068A9;
+}
+#timeline1-box .timeline1:hover .timeline1-content {
+
+    border: 2px solid #5068A9;
+
+}
+#timeline-box .timeline-content:before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid #cfcdcd;
+    position: absolute;
+    top: 21px;
+    right: -7.3px;
+    transform: rotate(45deg);
+    transition: all 0.2s ease 0s;
+}
+
+#timeline-box .timeline:hover .timeline-content:before {
+    background: #5068A9;
+    border-color: #5068A9;
+}
+ #timeline1-box .timeline1:hover .timeline1-content:before {
+    background: #5068A9;
+    border-color: #5068A9;
+}
+.research-title
+{
+	
+	padding: 20px 40px;
+	float: left;
+	position: relative;
+	font-style:italic;
+	color: #444;
+	margin-top: 0;
+	transition: all 0.3s ease 0s;
+}
+.count-research-title
+{
+	
+	padding: 14px 20px;
+	float: right;
+	position: relative;
+	
+	color: #444;
+	margin-top: 0;
+	transition: all 0.3s ease 0s;
+}
+.count-research-title .title {
+
+    font-size: 18px;
+    color: #5068A9;
+    margin-top: 0;
+    transition: all 0.3s ease 0s;
+	font-weight: 900;
+
+}
+.research-title .title {
+
+    font-size: 18px;
+    color: #444;
+    margin-top: 0;
+    transition: all 0.3s ease 0s;
+
+}
+#timeline-box .timeline-content:after {
+    content: "";
+    width: 11%;
+    height: 1px;
+    background: #cfcdcd;
+    position: absolute;
+    top: 28px;
+    right: -14%;
+}
+#timeline1-box .timeline1-content:after {
+    content: "";
+    width: 31%;
+    height: 1px;
+    background: #cfcdcd;
+    position: absolute;
+    top: 28px;
+    right: -39%;
+}
+#timeline-box .date {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5068A9;
+    margin: 0 0 8px;
+    transition: all 0.3s ease 0s;
+}
+#timeline1-box .date {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5068A9;
+    margin: 0 0 8px;
+    transition: all 0.3s ease 0s;
+}
+#timeline-box .timeline:hover .date {
+    color: #444;
+}
+#timeline1-box .timeline1:hover .date {
+    color: #444;
+}
+#timeline-box .title {
+    font-size: 18px;
+    color: #444;
+    margin-top: 0;
+    transition: all 0.3s ease 0s;
+}
+#timeline1-box .title {
+    font-size: 18px;
+     color: #444;
+    margin-top: 0;
+    transition: all 0.3s ease 0s;
+}
+#timeline-box .timeline:hover .title {
+    color: #5068A9;
+}
+#timeline1-box .timeline1:hover .title {
+    color: #5068A9;
+}
+#timeline-box .description {
+    font-size: 16px;
+    color: #777;
+    line-height: 28px;
+    margin-top: 8px;
+}
+
+#timeline-box .timeline:nth-child(2n),
+#timeline-box .timeline:nth-child(2n) .timeline-content {
+    float: right;
+    text-align: left;
+}
+#timeline1-box .timeline1:nth-child(2n),
+#timeline1-box .timeline1:nth-child(2n) .timeline1-content {
+    float: right;
+    text-align: left;
+}
+#timeline-box .timeline:nth-child(2n) .timeline-icon {
+    right: 0;
+    left: -12px;
+}
+#timeline1-box .timeline1:nth-child(2n) .timeline1-icon {
+    right: 0;
+    left: -12px;
+}
+#timeline-box .timeline:nth-child(2n) .timeline-content:before {
+    left: -7.3px;
+}
+#timeline1-box .timeline1:nth-child(2n) .timeline1-content:before {
+    left: -7.3px;
+}
+#timeline-box .timeline:nth-child(2n) .timeline-content:after {
+    left: -14%;
+}
+ #timeline1-box .timeline1:nth-child(2n) .timeline1-content:after {
+    left: -14%;
+}
+@media only screen and (max-width: 767px) {
+    #timeline-box {
+        padding-left: 20px;
+    }
+    #timeline-box:before {
+        left: 20px;
+    }
+    #timeline-box .timeline {
+        width: 100%;
+    }
+    #timeline-box .timeline,
+    #timeline-box .timeline-content {
+        float: right;
+        padding:5px;
+        text-align: left;
+    }
+    #timeline-box .timeline:first-child:before,
+    #timeline-box .timeline:last-child:nth-child(odd):before {
+        right: auto;
+        left: -11px;
+    }
+    #timeline-box .timeline-icon {
+        right: 0;
+        left: -12px;
+    }
+    #timeline-box .timeline-content:before {
+        left: -7.3px;
+    }
+    #timeline-box .timeline-content:after {
+        left: -14%;
+    }
+}
